@@ -12,7 +12,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 
 }
@@ -48,7 +48,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/HIMYM.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('file:///C:/DIO/interface_streaming/img/HIMYM.jpg');
    
     height: 400px;
     background-size: cover;
@@ -104,4 +104,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrousel-filmes{
+    margin-top: 5px;
 }
